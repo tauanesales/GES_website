@@ -5,9 +5,6 @@ This is a personal project that started as an idea for Harvard's CS50x Final Pro
 
 Static HTML/CSS website.
 
-
-<hr>
-
 # Agile Methodologies
 
 - Scrum;
