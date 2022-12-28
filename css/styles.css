@@ -7850,7 +7850,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000000 !important;
 }
 
 .bg-black {
@@ -11370,7 +11370,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(97, 18, 179, 0.8);
+    border: 0.5rem solid #ffffff;
   }
   #sideNav .navbar-collapse {
     display: flex;
