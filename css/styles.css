@@ -240,7 +240,7 @@ sup {
 
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: var(--bs-green);
