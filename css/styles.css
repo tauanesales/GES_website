@@ -11349,6 +11349,14 @@ p.lead {
   ;
 }
 
+#wp_btn{
+  position: fixed;
+  width: min(18vh,18vw);
+  height: min(18vh,18vw);
+  bottom: 5%;
+  right: 20px;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     padding-left: 0;
