@@ -11429,6 +11429,7 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+  min-height: 100vh;
 }
 section.resume-section .resume-section-content {
   width: 100%;
