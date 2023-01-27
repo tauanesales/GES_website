@@ -11449,8 +11449,13 @@ section.resume-section .resume-section-content {
   }
 }
 
-
 #phoneImg{
   background-color: green;
   max-height: 70vh;
+}
+
+@media (max-height: 870px) {
+  #phoneImg {
+    margin-top: .5rem;
+  }
 }
