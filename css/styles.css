@@ -11351,10 +11351,12 @@ p.lead {
 
 #wp_btn{
   position: fixed;
-  width: min(18vh,18vw);
-  height: min(18vh,18vw);
-  bottom: 5%;
-  right: 20px;
+  width: min(16vh,16vw);
+  height: min(16vh,16vw);
+  bottom: min(6vh, 6vw);
+  right: min(4.8vh, 4.8vw);
+  background: rgba(73, 230, 112, 1.0);
+  padding: min(3vh,3vw);
   z-index: 1;
 }
 
