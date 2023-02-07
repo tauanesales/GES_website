@@ -11355,6 +11355,7 @@ p.lead {
   height: min(18vh,18vw);
   bottom: 5%;
   right: 20px;
+  z-index: 1;
 }
 
 @media (min-width: 992px) {
