@@ -11348,15 +11348,28 @@ p.lead {
   ;
 }
 
-#wp_btn{
+#wp_btn {
   position: fixed;
-  width: min(16vh,16vw);
-  height: min(16vh,16vw);
+  width: min(16vh, 16vw);
+  height: min(16vh, 16vw);
   bottom: min(6vh, 6vw);
   right: min(4.8vh, 4.8vw);
-  background: rgba(73, 230, 112, 1.0);
-  padding: min(3vh,3vw);
+  background: rgba(73, 230, 112, 1);
+  padding: min(3vh, 3vw);
   z-index: 1;
+  transition: all 0.5s;
+}
+
+#ges_btn {
+  position: fixed;
+  width: min(17vh, 17vw);
+  height: min(17vh, 17vw);
+  bottom: min(6vh, 6vw);
+  left: min(4.8vh, 4.8vw);
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s;
 }
 
 @media (min-width: 992px) {
@@ -11451,7 +11464,7 @@ section.resume-section .resume-section-content {
   }
 }
 
-#phoneImg{
+#phoneImg {
   background-color: green;
   max-height: 70vh;
 }

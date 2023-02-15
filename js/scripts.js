@@ -19,3 +19,19 @@ window.addEventListener("DOMContentLoaded", (event) => {
         });
     });
 });
+
+window.onscroll = function () {
+    // Set the height to check for
+    const phoneImg = document.getElementById("phoneImg");
+    const side_nav = document.getElementById("sideNav");
+
+    if (window.pageYOffset >= phoneImg.height * 0.5 + phoneImg.offsetTop - side_nav.offsetHeight) {
+        // If more show the element
+        document.getElementById("ges_btn").style.opacity = "1";
+        document.getElementById("ges_btn").style.pointerEvents = "all";
+    } else {
+        // Else hide it
+        document.getElementById("ges_btn").style.opacity = "0";
+        document.getElementById("ges_btn").style.pointerEvents = "none";
+    }
+};
