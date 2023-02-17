@@ -14,7 +14,7 @@ This is a personal project that started as an idea for Harvard's CS50x Final Pro
 
 ### v1.0.0
 
-Static HTML/CSS website.
+Static HTML/CSS/JS website.
 
 ### v2.0.0
 
