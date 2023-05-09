@@ -24,3 +24,7 @@ React.js
 
 - Scrum;
 - git flow;
+
+## License
+
+MIT
